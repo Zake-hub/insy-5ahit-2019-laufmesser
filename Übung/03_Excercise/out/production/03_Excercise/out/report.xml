@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report>
+    <last-sixteen>
+        <sixteen code="SUI">
+            <name>Swiss</name>
+        </sixteen>
+        <sixteen code="PLA">
+            <name>Poland</name>
+        </sixteen>
+        <sixteen code="CRO">
+            <name>Kroatia</name>
+        </sixteen>
+        <sixteen code="POR">
+            <name>Portugal</name>
+        </sixteen>
+        <sixteen code="WAL">
+            <name/>
+        </sixteen>
+        <sixteen code="NIR">
+            <name/>
+        </sixteen>
+        <sixteen code="HUN">
+            <name>Hungry</name>
+        </sixteen>
+        <sixteen code="BEL">
+            <name>Belgium</name>
+        </sixteen>
+        <sixteen code="GER">
+            <name>Germany</name>
+        </sixteen>
+        <sixteen code="SVK">
+            <name>Slovakia</name>
+        </sixteen>
+        <sixteen code="ITA">
+            <name>Italy</name>
+        </sixteen>
+        <sixteen code="SPA">
+            <name>Spain</name>
+        </sixteen>
+        <sixteen code="FRA">
+            <name>France</name>
+        </sixteen>
+        <sixteen code="IRL">
+            <name>Ireland</name>
+        </sixteen>
+        <sixteen code="GBS">
+            <name/>
+        </sixteen>
+        <sixteen code="ISL">
+            <name/>
+        </sixteen>
+    </last-sixteen>
+    <last-eight>
+        <eight code="PLA">
+            <name>Poland</name>
+        </eight>
+        <eight code="POR">
+            <name>Portugal</name>
+        </eight>
+        <eight code="WAL">
+            <name/>
+        </eight>
+        <eight code="BEL">
+            <name>Belgium</name>
+        </eight>
+        <eight code="GER">
+            <name>Germany</name>
+        </eight>
+        <eight code="ITA">
+            <name>Italy</name>
+        </eight>
+        <eight code="FRA">
+            <name>France</name>
+        </eight>
+        <eight code="ISL">
+            <name/>
+        </eight>
+    </last-eight>
+    <last-four>
+        <four code="POR">
+            <name>Portugal</name>
+        </four>
+        <four code="WAL">
+            <name/>
+        </four>
+        <four code="GER">
+            <name>Germany</name>
+        </four>
+        <four code="FRA">
+            <name>France</name>
+        </four>
+    </last-four>
+    <last-two>
+        <two code="POR">
+            <name>Portugal</name>
+        </two>
+        <two code="FRA">
+            <name>France</name>
+        </two>
+    </last-two>
+</report>

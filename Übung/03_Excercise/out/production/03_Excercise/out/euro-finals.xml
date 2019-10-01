@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?><report>
+    <team group="2" code="ITA">
+        <name>Italy</name>
+        <opponents>
+            <team group="1" code="FRA"/>
+            <team group="1" code="SPA"/>
+            <team group="1" code="GER"/>
+            <team group="1" code="GBS"/>
+            <team group="1" code="POR"/>
+            <team group="1" code="BEL"/>
+            <team group="2" code="RUS"/>
+            <team group="2" code="SUI"/>
+            <team group="2" code="AUT"/>
+            <team group="2" code="CRO"/>
+            <team group="2" code="UKR"/>
+            <team group="3" code="CZE"/>
+            <team group="3" code="SWE"/>
+            <team group="3" code="PLA"/>
+            <team group="3" code="ROU"/>
+            <team group="3" code="SVK"/>
+            <team group="3" code="HUN"/>
+            <team group="4" code="TUR"/>
+            <team group="4" code="IRL"/>
+            <team group="4" code="ISL"/>
+            <team group="4" code="WAL"/>
+            <team group="4" code="ALB"/>
+            <team group="4" code="NIR"/>
+        </opponents>
+    </team>
+    <team group="2" code="RUS">
+        <name>Russia</name>
+        <opponents>
+            <team group="1" code="FRA"/>
+            <team group="1" code="SPA"/>
+            <team group="1" code="GER"/>
+            <team group="1" code="GBS"/>
+            <team group="1" code="POR"/>
+            <team group="1" code="BEL"/>
+            <team group="2" code="ITA"/>
+            <team group="2" code="SUI"/>
+            <team group="2" code="AUT"/>
+            <team group="2" code="CRO"/>
+            <team group="2" code="UKR"/>
+            <team group="3" code="CZE"/>
+            <team group="3" code="SWE"/>
+            <team group="3" code="PLA"/>
+            <team group="3" code="ROU"/>
+            <team group="3" code="SVK"/>
+            <team group="3" code="HUN"/>
+            <team group="4" code="TUR"/>
+            <team group="4" code="IRL"/>
+            <team group="4" code="ISL"/>
+            <team group="4" code="WAL"/>
+            <team group="4" code="ALB"/>
+            <team group="4" code="NIR"/>
+        </opponents>
+    </team>
+    <team group="2" code="SUI">
+        <name>Swiss</name>
+        <opponents>
+            <team group="1" code="FRA"/>
+            <team group="1" code="SPA"/>
+            <team group="1" code="GER"/>
+            <team group="1" code="GBS"/>
+            <team group="1" code="POR"/>
+            <team group="1" code="BEL"/>
+            <team group="2" code="ITA"/>
+            <team group="2" code="RUS"/>
+            <team group="2" code="AUT"/>
+            <team group="2" code="CRO"/>
+            <team group="2" code="UKR"/>
+            <team group="3" code="CZE"/>
+            <team group="3" code="SWE"/>
+            <team group="3" code="PLA"/>
+            <team group="3" code="ROU"/>
+            <team group="3" code="SVK"/>
+            <team group="3" code="HUN"/>
+            <team group="4" code="TUR"/>
+            <team group="4" code="IRL"/>
+            <team group="4" code="ISL"/>
+            <team group="4" code="WAL"/>
+            <team group="4" code="ALB"/>
+            <team group="4" code="NIR"/>
+        </opponents>
+    </team>
+    <team group="2" code="AUT">
+        <name>Austria</name>
+        <opponents>
+            <team group="1" code="FRA"/>
+            <team group="1" code="SPA"/>
+            <team group="1" code="GER"/>
+            <team group="1" code="GBS"/>
+            <team group="1" code="POR"/>
+            <team group="1" code="BEL"/>
+            <team group="2" code="ITA"/>
+            <team group="2" code="RUS"/>
+            <team group="2" code="SUI"/>
+            <team group="2" code="CRO"/>
+            <team group="2" code="UKR"/>
+            <team group="3" code="CZE"/>
+            <team group="3" code="SWE"/>
+            <team group="3" code="PLA"/>
+            <team group="3" code="ROU"/>
+            <team group="3" code="SVK"/>
+            <team group="3" code="HUN"/>
+            <team group="4" code="TUR"/>
+            <team group="4" code="IRL"/>
+            <team group="4" code="ISL"/>
+            <team group="4" code="WAL"/>
+            <team group="4" code="ALB"/>
+            <team group="4" code="NIR"/>
+        </opponents>
+    </team>
+    <team group="2" code="CRO">
+        <name>Kroatia</name>
+        <opponents>
+            <team group="1" code="FRA"/>
+            <team group="1" code="SPA"/>
+            <team group="1" code="GER"/>
+            <team group="1" code="GBS"/>
+            <team group="1" code="POR"/>
+            <team group="1" code="BEL"/>
+            <team group="2" code="ITA"/>
+            <team group="2" code="RUS"/>
+            <team group="2" code="SUI"/>
+            <team group="2" code="AUT"/>
+            <team group="2" code="UKR"/>
+            <team group="3" code="CZE"/>
+            <team group="3" code="SWE"/>
+            <team group="3" code="PLA"/>
+            <team group="3" code="ROU"/>
+            <team group="3" code="SVK"/>
+            <team group="3" code="HUN"/>
+            <team group="4" code="TUR"/>
+            <team group="4" code="IRL"/>
+            <team group="4" code="ISL"/>
+            <team group="4" code="WAL"/>
+            <team group="4" code="ALB"/>
+            <team group="4" code="NIR"/>
+        </opponents>
+    </team>
+    <team group="2" code="UKR">
+        <name>Ukraine</name>
+        <opponents>
+            <team group="1" code="FRA"/>
+            <team group="1" code="SPA"/>
+            <team group="1" code="GER"/>
+            <team group="1" code="GBS"/>
+            <team group="1" code="POR"/>
+            <team group="1" code="BEL"/>
+            <team group="2" code="ITA"/>
+            <team group="2" code="RUS"/>
+            <team group="2" code="SUI"/>
+            <team group="2" code="AUT"/>
+            <team group="2" code="CRO"/>
+            <team group="3" code="CZE"/>
+            <team group="3" code="SWE"/>
+            <team group="3" code="PLA"/>
+            <team group="3" code="ROU"/>
+            <team group="3" code="SVK"/>
+            <team group="3" code="HUN"/>
+            <team group="4" code="TUR"/>
+            <team group="4" code="IRL"/>
+            <team group="4" code="ISL"/>
+            <team group="4" code="WAL"/>
+            <team group="4" code="ALB"/>
+            <team group="4" code="NIR"/>
+        </opponents>
+    </team>
+    <team group="3" code="CZE">
+        <name>Tschek Republic</name>
+        <opponents>
+            <team group="1" code="FRA"/>
+            <team group="1" code="SPA"/>
+            <team group="1" code="GER"/>
+            <team group="1" code="GBS"/>
+            <team group="1" code="POR"/>
+            <team group="1" code="BEL"/>
+            <team group="2" code="ITA"/>
+            <team group="2" code="RUS"/>
+            <team group="2" code="SUI"/>
+            <team group="2" code="AUT"/>
+            <team group="2" code="CRO"/>
+            <team group="2" code="UKR"/>
+            <team group="3" code="SWE"/>
+            <team group="3" code="PLA"/>
+            <team group="3" code="ROU"/>
+            <team group="3" code="SVK"/>
+            <team group="3" code="HUN"/>
+            <team group="4" code="TUR"/>
+            <team group="4" code="IRL"/>
+            <team group="4" code="ISL"/>
+            <team group="4" code="WAL"/>
+            <team group="4" code="ALB"/>
+            <team group="4" code="NIR"/>
+        </opponents>
+    </team>
+    <team group="3" code="SWE">
+        <name>Sweden</name>
+        <opponents>
+            <team group="1" code="FRA"/>
+            <team group="1" code="SPA"/>
+            <team group="1" code="GER"/>
+            <team group="1" code="GBS"/>
+            <team group="1" code="POR"/>
+            <team group="1" code="BEL"/>
+            <team group="2" code="ITA"/>
+            <team group="2" code="RUS"/>
+            <team group="2" code="SUI"/>
+            <team group="2" code="AUT"/>
+            <team group="2" code="CRO"/>
+            <team group="2" code="UKR"/>
+            <team group="3" code="CZE"/>
+            <team group="3" code="PLA"/>
+            <team group="3" code="ROU"/>
+            <team group="3" code="SVK"/>
+            <team group="3" code="HUN"/>
+            <team group="4" code="TUR"/>
+            <team group="4" code="IRL"/>
+            <team group="4" code="ISL"/>
+            <team group="4" code="WAL"/>
+            <team group="4" code="ALB"/>
+            <team group="4" code="NIR"/>
+        </opponents>
+    </team>
+    <team group="3" code="PLA">
+        <name>Poland</name>
+        <opponents>
+            <team group="1" code="FRA"/>
+            <team group="1" code="SPA"/>
+            <team group="1" code="GER"/>
+            <team group="1" code="GBS"/>
+            <team group="1" code="POR"/>
+            <team group="1" code="BEL"/>
+            <team group="2" code="ITA"/>
+            <team group="2" code="RUS"/>
+            <team group="2" code="SUI"/>
+            <team group="2" code="AUT"/>
+            <team group="2" code="CRO"/>
+            <team group="2" code="UKR"/>
+            <team group="3" code="CZE"/>
+            <team group="3" code="SWE"/>
+            <team group="3" code="ROU"/>
+            <team group="3" code="SVK"/>
+            <team group="3" code="HUN"/>
+            <team group="4" code="TUR"/>
+            <team group="4" code="IRL"/>
+            <team group="4" code="ISL"/>
+            <team group="4" code="WAL"/>
+            <team group="4" code="ALB"/>
+            <team group="4" code="NIR"/>
+        </opponents>
+    </team>
+    <team group="3" code="ROU">
+        <name>Romania</name>
+        <opponents>
+            <team group="1" code="FRA"/>
+            <team group="1" code="SPA"/>
+            <team group="1" code="GER"/>
+            <team group="1" code="GBS"/>
+            <team group="1" code="POR"/>
+            <team group="1" code="BEL"/>
+            <team group="2" code="ITA"/>
+            <team group="2" code="RUS"/>
+            <team group="2" code="SUI"/>
+            <team group="2" code="AUT"/>
+            <team group="2" code="CRO"/>
+            <team group="2" code="UKR"/>
+            <team group="3" code="CZE"/>
+            <team group="3" code="SWE"/>
+            <team group="3" code="PLA"/>
+            <team group="3" code="SVK"/>
+            <team group="3" code="HUN"/>
+            <team group="4" code="TUR"/>
+            <team group="4" code="IRL"/>
+            <team group="4" code="ISL"/>
+            <team group="4" code="WAL"/>
+            <team group="4" code="ALB"/>
+            <team group="4" code="NIR"/>
+        </opponents>
+    </team>
+    <team group="3" code="SVK">
+        <name>Slovakia</name>
+        <opponents>
+            <team group="1" code="FRA"/>
+            <team group="1" code="SPA"/>
+            <team group="1" code="GER"/>
+            <team group="1" code="GBS"/>
+            <team group="1" code="POR"/>
+            <team group="1" code="BEL"/>
+            <team group="2" code="ITA"/>
+            <team group="2" code="RUS"/>
+            <team group="2" code="SUI"/>
+            <team group="2" code="AUT"/>
+            <team group="2" code="CRO"/>
+            <team group="2" code="UKR"/>
+            <team group="3" code="CZE"/>
+            <team group="3" code="SWE"/>
+            <team group="3" code="PLA"/>
+            <team group="3" code="ROU"/>
+            <team group="3" code="HUN"/>
+            <team group="4" code="TUR"/>
+            <team group="4" code="IRL"/>
+            <team group="4" code="ISL"/>
+            <team group="4" code="WAL"/>
+            <team group="4" code="ALB"/>
+            <team group="4" code="NIR"/>
+        </opponents>
+    </team>
+    <team group="3" code="HUN">
+        <name>Hungry</name>
+        <opponents>
+            <team group="1" code="FRA"/>
+            <team group="1" code="SPA"/>
+            <team group="1" code="GER"/>
+            <team group="1" code="GBS"/>
+            <team group="1" code="POR"/>
+            <team group="1" code="BEL"/>
+            <team group="2" code="ITA"/>
+            <team group="2" code="RUS"/>
+            <team group="2" code="SUI"/>
+            <team group="2" code="AUT"/>
+            <team group="2" code="CRO"/>
+            <team group="2" code="UKR"/>
+            <team group="3" code="CZE"/>
+            <team group="3" code="SWE"/>
+            <team group="3" code="PLA"/>
+            <team group="3" code="ROU"/>
+            <team group="3" code="SVK"/>
+            <team group="4" code="TUR"/>
+            <team group="4" code="IRL"/>
+            <team group="4" code="ISL"/>
+            <team group="4" code="WAL"/>
+            <team group="4" code="ALB"/>
+            <team group="4" code="NIR"/>
+        </opponents>
+    </team>
+    <team group="4" code="TUR">
+        <name>Turkey</name>
+        <opponents>
+            <team group="1" code="FRA"/>
+            <team group="1" code="SPA"/>
+            <team group="1" code="GER"/>
+            <team group="1" code="GBS"/>
+            <team group="1" code="POR"/>
+            <team group="1" code="BEL"/>
+            <team group="2" code="ITA"/>
+            <team group="2" code="RUS"/>
+            <team group="2" code="SUI"/>
+            <team group="2" code="AUT"/>
+            <team group="2" code="CRO"/>
+            <team group="2" code="UKR"/>
+            <team group="3" code="CZE"/>
+            <team group="3" code="SWE"/>
+            <team group="3" code="PLA"/>
+            <team group="3" code="ROU"/>
+            <team group="3" code="SVK"/>
+            <team group="3" code="HUN"/>
+            <team group="4" code="IRL"/>
+            <team group="4" code="ISL"/>
+            <team group="4" code="WAL"/>
+            <team group="4" code="ALB"/>
+            <team group="4" code="NIR"/>
+        </opponents>
+    </team>
+    <team group="4" code="IRL">
+        <name>Ireland</name>
+        <opponents>
+            <team group="1" code="FRA"/>
+            <team group="1" code="SPA"/>
+            <team group="1" code="GER"/>
+            <team group="1" code="GBS"/>
+            <team group="1" code="POR"/>
+            <team group="1" code="BEL"/>
+            <team group="2" code="ITA"/>
+            <team group="2" code="RUS"/>
+            <team group="2" code="SUI"/>
+            <team group="2" code="AUT"/>
+            <team group="2" code="CRO"/>
+            <team group="2" code="UKR"/>
+            <team group="3" code="CZE"/>
+            <team group="3" code="SWE"/>
+            <team group="3" code="PLA"/>
+            <team group="3" code="ROU"/>
+            <team group="3" code="SVK"/>
+            <team group="3" code="HUN"/>
+            <team group="4" code="TUR"/>
+            <team group="4" code="ISL"/>
+            <team group="4" code="WAL"/>
+            <team group="4" code="ALB"/>
+            <team group="4" code="NIR"/>
+        </opponents>
+    </team>
+    <team group="4" code="ISL">
+        <name/>
+        <opponents>
+            <team group="1" code="FRA"/>
+            <team group="1" code="SPA"/>
+            <team group="1" code="GER"/>
+            <team group="1" code="GBS"/>
+            <team group="1" code="POR"/>
+            <team group="1" code="BEL"/>
+            <team group="2" code="ITA"/>
+            <team group="2" code="RUS"/>
+            <team group="2" code="SUI"/>
+            <team group="2" code="AUT"/>
+            <team group="2" code="CRO"/>
+            <team group="2" code="UKR"/>
+            <team group="3" code="CZE"/>
+            <team group="3" code="SWE"/>
+            <team group="3" code="PLA"/>
+            <team group="3" code="ROU"/>
+            <team group="3" code="SVK"/>
+            <team group="3" code="HUN"/>
+            <team group="4" code="TUR"/>
+            <team group="4" code="IRL"/>
+            <team group="4" code="WAL"/>
+            <team group="4" code="ALB"/>
+            <team group="4" code="NIR"/>
+        </opponents>
+    </team>
+    <team group="4" code="WAL">
+        <name/>
+        <opponents>
+            <team group="1" code="FRA"/>
+            <team group="1" code="SPA"/>
+            <team group="1" code="GER"/>
+            <team group="1" code="GBS"/>
+            <team group="1" code="POR"/>
+            <team group="1" code="BEL"/>
+            <team group="2" code="ITA"/>
+            <team group="2" code="RUS"/>
+            <team group="2" code="SUI"/>
+            <team group="2" code="AUT"/>
+            <team group="2" code="CRO"/>
+            <team group="2" code="UKR"/>
+            <team group="3" code="CZE"/>
+            <team group="3" code="SWE"/>
+            <team group="3" code="PLA"/>
+            <team group="3" code="ROU"/>
+            <team group="3" code="SVK"/>
+            <team group="3" code="HUN"/>
+            <team group="4" code="TUR"/>
+            <team group="4" code="IRL"/>
+            <team group="4" code="ISL"/>
+            <team group="4" code="ALB"/>
+            <team group="4" code="NIR"/>
+        </opponents>
+    </team>
+    <team group="4" code="ALB">
+        <name/>
+        <opponents>
+            <team group="1" code="FRA"/>
+            <team group="1" code="SPA"/>
+            <team group="1" code="GER"/>
+            <team group="1" code="GBS"/>
+            <team group="1" code="POR"/>
+            <team group="1" code="BEL"/>
+            <team group="2" code="ITA"/>
+            <team group="2" code="RUS"/>
+            <team group="2" code="SUI"/>
+            <team group="2" code="AUT"/>
+            <team group="2" code="CRO"/>
+            <team group="2" code="UKR"/>
+            <team group="3" code="CZE"/>
+            <team group="3" code="SWE"/>
+            <team group="3" code="PLA"/>
+            <team group="3" code="ROU"/>
+            <team group="3" code="SVK"/>
+            <team group="3" code="HUN"/>
+            <team group="4" code="TUR"/>
+            <team group="4" code="IRL"/>
+            <team group="4" code="ISL"/>
+            <team group="4" code="WAL"/>
+            <team group="4" code="NIR"/>
+        </opponents>
+    </team>
+    <team group="4" code="NIR">
+        <name/>
+        <opponents>
+            <team group="1" code="FRA"/>
+            <team group="1" code="SPA"/>
+            <team group="1" code="GER"/>
+            <team group="1" code="GBS"/>
+            <team group="1" code="POR"/>
+            <team group="1" code="BEL"/>
+            <team group="2" code="ITA"/>
+            <team group="2" code="RUS"/>
+            <team group="2" code="SUI"/>
+            <team group="2" code="AUT"/>
+            <team group="2" code="CRO"/>
+            <team group="2" code="UKR"/>
+            <team group="3" code="CZE"/>
+            <team group="3" code="SWE"/>
+            <team group="3" code="PLA"/>
+            <team group="3" code="ROU"/>
+            <team group="3" code="SVK"/>
+            <team group="3" code="HUN"/>
+            <team group="4" code="TUR"/>
+            <team group="4" code="IRL"/>
+            <team group="4" code="ISL"/>
+            <team group="4" code="WAL"/>
+            <team group="4" code="ALB"/>
+        </opponents>
+    </team>
+    <team group="1" code="POR">
+        <name>Portugal</name>
+        <opponents>
+            <team group="1" code="FRA"/>
+            <team group="1" code="SPA"/>
+            <team group="1" code="GER"/>
+            <team group="1" code="GBS"/>
+            <team group="1" code="BEL"/>
+            <team group="2" code="ITA"/>
+            <team group="2" code="RUS"/>
+            <team group="2" code="SUI"/>
+            <team group="2" code="AUT"/>
+            <team group="2" code="CRO"/>
+            <team group="2" code="UKR"/>
+            <team group="3" code="CZE"/>
+            <team group="3" code="SWE"/>
+            <team group="3" code="PLA"/>
+            <team group="3" code="ROU"/>
+            <team group="3" code="SVK"/>
+            <team group="3" code="HUN"/>
+            <team group="4" code="TUR"/>
+            <team group="4" code="IRL"/>
+            <team group="4" code="ISL"/>
+            <team group="4" code="WAL"/>
+            <team group="4" code="ALB"/>
+            <team group="4" code="NIR"/>
+        </opponents>
+    </team>
+    <team group="1" code="FRA">
+        <name>France</name>
+        <opponents>
+            <team group="1" code="SPA"/>
+            <team group="1" code="GER"/>
+            <team group="1" code="GBS"/>
+            <team group="1" code="POR"/>
+            <team group="1" code="BEL"/>
+            <team group="2" code="ITA"/>
+            <team group="2" code="RUS"/>
+            <team group="2" code="SUI"/>
+            <team group="2" code="AUT"/>
+            <team group="2" code="CRO"/>
+            <team group="2" code="UKR"/>
+            <team group="3" code="CZE"/>
+            <team group="3" code="SWE"/>
+            <team group="3" code="PLA"/>
+            <team group="3" code="ROU"/>
+            <team group="3" code="SVK"/>
+            <team group="3" code="HUN"/>
+            <team group="4" code="TUR"/>
+            <team group="4" code="IRL"/>
+            <team group="4" code="ISL"/>
+            <team group="4" code="WAL"/>
+            <team group="4" code="ALB"/>
+            <team group="4" code="NIR"/>
+        </opponents>
+    </team>
+</report>
