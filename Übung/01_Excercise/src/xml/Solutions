@@ -1,0 +1,60 @@
+---------------------------------------------
+XPath Kurzform: euro.xml
+---------------------------------------------
+Adressieren Sie die Nachnamen aller Abwehrspieler der franzoesichen Mannschaft.
+
+//team[nation/short-name = 'FRA']/position[@type = "defense"]/player/name/last-name/text()
+
+Adressieren Sie die Namen der Klubs in denen die spanischen Stuermer spielen.
+
+//team[nation/short-name = 'SPA']/position[@type = "attack"]/player/club/text()
+
+Adressieren Sie die Namen der Teams die ins Semifinale eingezogen sind.
+
+//team[nation/short-name=//matches/last-four/match/team]/nation/name/text()
+
+Adressieren Sie fuer jedes Team den ersten Mittelfeldspieler.
+
+//team/position[@type='playground']/player[1]
+
+Geben Sie an wieviele Spieler der Weltmeisterschaft fuer Real Madrid spielen.
+
+//player[club='Real Madrid']/name/last-name/text()
+
+Adressieren Sie alle Teams in der Gruppenphase, die die Gruppenphase uerberstanden haben.
+Hinweis: Verwenden Sie den . Operator um auf den gegenwaertigen Knoten zuzugreifen.
+
+//team[nation/short-name=//matches/last-sixteen/match/team]
+
+Geben Sie fuer das portugisische Team die Anzahl der Spiele nach der Gruppenphase an.
+Hinweis: Verwenden Sie den * Operator um auf alle Kindelemente eines Knotens zuzugreifen.
+
+count(//match[team='POR'])
+
+Geben Sie die Namen alle Gegner des portugisischen Teams in der Gruppenphase aus.
+
+//group[team='POR']/team[not(.='POR')]
+
+---------------------------------------------
+XPath Kurzform: travel.xml
+---------------------------------------------
+Adressieren Sie die Namen aller Sommercamps die bereits gebucht worden sind.
+
+//summercamp[@id = //booking/@campid]/name/text()
+
+Adressieren Sie die Namen aller Camps die bereits gebucht worden sind.
+Hinweis: Verwenden Sie den * Operator um auf alle Kindelemente eines Knotens zuzugreifen.
+
+//sportcamps/*[@id = //booking/@campid]/name/text()
+
+Adressieren Sie das alle Sportcamps fuer die ein Buchungsdatum bekannt ist.
+
+//sportcamps/*[@id = //booking[@date]/@campid]/name/text()
+
+Adressieren Sie das erste Sportcamps fuer das ein Buchungsdatum bekannt ist.
+
+//sportcamps/*[@id = //booking[@date]/@campid][1]/name/text()
+
+Adressieren Sie alle Sportcamps fuer die kein Buchungsdatum bekannt ist.
+
+//sportcamps/*[@id = //booking[not(@date)]/@campid]/name/text()

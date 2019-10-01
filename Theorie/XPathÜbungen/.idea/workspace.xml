@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="de5a4695-4465-46d2-9884-747ced551469" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../XsltÜbung/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../XsltÜbung/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../XsltÜbung/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../XsltÜbung/XsltÜbung.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../XsltÜbung/src/output/output01.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../XsltÜbung/src/output/output02.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../XsltÜbung/src/xml/euro.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../XsltÜbung/src/xslt/exe01.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../XsltÜbung/src/xslt/exe02.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Übung/.idea/Übung.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Übung/02_Excercise/02_Excercise.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1QdQ1ChvGqa7MlzIc0nzOWj74Q9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="de5a4695-4465-46d2-9884-747ced551469" name="Default Changelist" comment="" />
+      <created>1568097775079</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568097775079</updated>
+      <workItem from="1568097776304" duration="2469000" />
+      <workItem from="1568109997936" duration="40000" />
+      <workItem from="1569304610988" duration="60000" />
+      <workItem from="1569309831433" duration="16000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XPathView.XPathProjectComponent">
+    <history>
+      <element expression="/project[name = 'Simulation']" />
+      <element expression="/project/subprojects[subproject/id = 342566]" />
+      <element expression="/project/subprojects[subproject/@id = 342566]" />
+      <element expression="/project/subprojects/subproject[@id = 342566]" />
+      <element expression="/project/partners/partner[partner-role = 'research-partner']" />
+      <element expression="/project[count(subprojects/subproject) = 1 and subprojects/subproject/name = 'Computersimulation']" />
+      <element expression="/project[count(subprojects/subproject) = 1 and subprojects/subproject/name = 'Computersimulation']/description/text()" />
+      <element expression="/project[count(subprojects/subproject[name = 'Computersimulation']) = 1]/description/text()" />
+    </history>
+    <find-history />
+  </component>
+</project>

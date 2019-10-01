@@ -1,0 +1,19 @@
+Edit -> Find -> Evaluate XPath + show results
+
+* Alle Subprojektknoten sollen angezeigt werden:
+/project/subprojects/subproject
+
+* Finden sie alle Mitarbeiter:
+/project/subprojects/subproject/stuff/member/
+
+* Finden sie alle 'Project' Elemente mit dem Namen 'Simulation':
+/project[name = 'Simulation']
+
+* Finden sie alle 'Subprojects' Elemente mit der 'id' 342566:
+/project/subprojects/subproject[@id = 342566]
+
+* Finden sie alle 'partner' Elemente die die Partnerrolle 'research-partner' haben:
+/project/partners/partner[partner-role = 'research-partner']
+
+* Finden sie die 'description' Beschreibung aller 'project' Elemente die genau ein 'subproject' Element mit dem Namen Computersimulation enthälz:
+/project[count(subprojects/subproject[name = 'Computersimulation']) = 1]/description/text()

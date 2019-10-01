@@ -1,0 +1,55 @@
+ Aufgabenstellung: XPath Lokalisierungspfade 
+-- ---------------------------------------------
+-- XPath Standardform: travel.xml
+-- ---------------------------------------------
+//sportcamps/*[@id = //booking[@date]/@campid]
+
+//sportcamps/child::*[attribute::id = //booking[attribute::date]/attribute::campid]
+
+//customer[@id = //booking/@customerid]/text()
+
+//customer[attribute::id = //booking/attribute::customerid]/text()
+
+
+ Aufgabenstellung: XPath Lokalisierungspfade 
+-- ---------------------------------------------
+-- XPath Standardform: sport.xml
+-- ---------------------------------------------
+-- Adressieren Sie alle Sportarten
+
+//*[not(*)]
+
+-- Adressieren Sie alle Katalogeintraege denen
+-- die Sportart <super-g> zugeordnet ist.
+
+//super-g/ancestor::*
+
+-- Wieviele Sportarten sind im Winterspiele
+-- Katalog <snow-sports> zu finden?
+
+count(//sports/snow-sports/descendant::*[not(*)])
+
+-- Wieviele Katalogeintraege befinden sich im
+-- gesamten Katalog
+
+count(//*[*])
+
+-- Adressieren Sie alle Sommersportarten
+-- die keine Ballspiele sind.
+
+//summer-sports/descendant::*[not(ancestor-or-self::ball-games) and not(*)]
+
+-- Adressieren Sie alle Sportarten die sich nicht
+-- im selben Katalog wie <ski-run> befinden.
+
+//sports/*[not(descendant-or-self::ski-run)]/descendant::*[not(*)]
+
+ Aufgabenstellung: XPath Lokalisierungspfade 
+-- ---------------------------------------------
+-- XPath Standardform: result.xml
+-- ---------------------------------------------
+-- Adressieren Sie fuer jede Gruppe das team
+-- das am weitesten gekommen ist - die meisten
+-- Runden hinter sich hat.
+
+//group/team[not(@round < following-sibling::team/@round) and not(@round < preceding-sibling::team/@round)]

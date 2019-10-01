@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?><teams>
+    <team code="FRA" group="1" info="Steint">
+        <players>
+            <player>Koscielny Laurent</player>
+            <player>Sidibe Djibril</player>
+            <player>Griezmann Antoine</player>
+            <player>Giroud Olivier</player>
+            <player>Fekir Nabil</player>
+            <player>Thauvin Florian</player>
+            <player>Lacazette Alexandre</player>
+        </players>
+        France
+    </team>
+    <team code="SPA" group="1" info="Steint">
+        <players>
+            <player>Alba Jordi</player>
+            <player>Carvajal Dani</player>
+            <player>Ramos Sergio</player>
+            <player>Moreno Alberto</player>
+            <player>Bartra Marc</player>
+            <player>Asensio Marco</player>
+            <player>Iniesta Andres</player>
+            <player>Silva David</player>
+            <player>Martinez Javi</player>
+            <player>Herrera Ander</player>
+            <player>Villa Davic</player>
+            <player>Costa Diego</player>
+            <player>Vazquez Lucas</player>
+            <player>Aduriz Aritz</player>
+        </players>
+        Spain
+    </team>
+    <team code="GER" group="1" info="Steint">
+        <players>
+            <player>Boateng Jerome</player>
+            <player>Halstenberg Marcel</player>
+            <player>Hummels Mats</player>
+            <player>Süle Niklas</player>
+            <player>Brandt Julian</player>
+            <player>Can Emre</player>
+            <player>Khedira Sami</player>
+            <player>Kroos Toni</player>
+            <player>Müller Thomas</player>
+            <player>Gomez Mario</player>
+        </players>
+        Germany
+    </team>
+    <team code="GB" group="" info="Steint">
+        <players>
+            <player>Bertrand Ryan</player>
+            <player>Gomez Joe</player>
+            <player>Jones Phil</player>
+            <player>Cook Lewis</player>
+            <player>Lingard Jesse</player>
+            <player>Rashford Marcus</player>
+            <player>Vardy Jamie</player>
+        </players>
+        England
+    </team>
+    <team code="POR" group="1" info="Steint">
+        <players>
+            <player>Neto Luis</player>
+            <player>Pereira Ricardo</player>
+            <player>Fernandes Manuel</player>
+            <player>Pereira Danilo</player>
+            <player>Fernandes Bruno</player>
+            <player>Silva Andre</player>
+            <player>Lopes Rony</player>
+        </players>
+        Portugal
+    </team>
+    <team code="BEL" group="1" info="Steint">
+        <players>
+            <player>Boyata Dedryck</player>
+            <player>Ciman Laurent</player>
+            <player>Lukaku Jordan</player>
+            <player>Witsel Axel</player>
+            <player>Defour Steven</player>
+            <player>Januzaj Adnan</player>
+            <player>Depoitre Laurent</player>
+            <player>Mirallas Kevin</player>
+            <player>Januzaj Adnan</player>
+        </players>
+        Belgium
+    </team>
+    <team code="ITA" group="2" info="Steint">
+        <players>
+            <player>Rugani Daniele</player>
+            <player>Barzagli Andrea</player>
+            <player>Zappacosta Davide</player>
+            <player>Gagliardini Roberto</player>
+            <player>Parolo Marco</player>
+            <player>Florenzi Alessandro</player>
+            <player>Immobile Ciro</player>
+            <player>Zaza Simone</player>
+            <player>Belotti Andrea</player>
+        </players>
+        Italy
+    </team>
+    <team code="RUS" group="2" info="Steint">
+        <players>
+            <player>Akinfejew Igor</player>
+            <player>Gabulow Wladimir</player>
+            <player>Gluschakow Denis</player>
+            <player>Golowin Alexander</player>
+            <player>Jerochin Alexander</player>
+            <player>Bucharow Alexander</player>
+            <player>Polos Dimitri</player>
+        </players>
+        Russia
+    </team>
+    <team code="SUI" group="2" info="Steint">
+        <players>
+            <player>Akanji Manuel</player>
+            <player>Klose Timm</player>
+            <player>Frei Fabian</player>
+            <player>Zuber Seven</player>
+            <player>Xhaka Granit</player>
+            <player>Stocker Valentin</player>
+            <player>Derdiyok Eren</player>
+            <player>Drmic Josip</player>
+            <player>Embolo Breel</player>
+        </players>
+        Swiss
+    </team>
+    <team code="AUT" group="2" info="Steint">
+        <players>
+            <player>Lainer Stefan</player>
+            <player>Dragovic Alexander</player>
+            <player>Alaba David</player>
+            <player>Arnautovic Marco</player>
+            <player>Schaub Louis</player>
+            <player>Burgstaller Guido</player>
+            <player>Gregorisch Michael</player>
+            <player>Janko Marc</player>
+        </players>
+        Austria
+    </team>
+    <team code="CRO" group="2" info="Steint">
+        <players>
+            <player>Lovren Dejan</player>
+            <player>Jedvaj Tin</player>
+            <player>Bradaric Filip</player>
+            <player>Modric Luka</player>
+            <player>Perisic Ivan</player>
+            <player>Santini Ivan</player>
+            <player>Pjaca Mario</player>
+            <player>Kalinic Nikola</player>
+        </players>
+        Kroatia
+    </team>
+    <team code="UKR" group="2" info="Steint">
+        <players>
+            <player>Sobol Eduard</player>
+            <player>Kutscher Olexandr</player>
+            <player>Zhyankow Wiktor</player>
+            <player>Schachow Jewhen</player>
+            <player>Konopljanka Jewhen</player>
+            <player>Bjessjedin Artem</player>
+            <player>Jarmolinko Andrij</player>
+        </players>
+        Ukraine
+    </team>
+    <team code="CZE" group="3" info="Steint">
+        <players>
+            <player>Boril Jan</player>
+            <player>Suchy Marek</player>
+            <player>Husbauer Josef</player>
+            <player>Barak Antonin</player>
+            <player>Horava Tomas</player>
+            <player>Kadlex Vaclav</player>
+            <player>Kliment Jan</player>
+            <player>Skoda Milan</player>
+        </players>
+        Tschek Republic
+    </team>
+    <team code="SWE" group="3" info="Steint">
+        <players>
+            <player>Brorsson Franz</player>
+            <player>Nilsson Joakim</player>
+            <player>Olson Martin</player>
+            <player>Fransson Alexander</player>
+            <player>Lewicki Oscar</player>
+            <player>Sema Ken</player>
+            <player>Andersson Sebastian</player>
+            <player>Frick Per</player>
+            <player>Isak Alexander</player>
+        </players>
+        Sweden
+    </team>
+    <team code="PLA" group="3" info="Steint">
+        <players>
+            <player>Glik Kamil</player>
+            <player>Jach Jaroslaw</player>
+            <player>Pazdan Machl</player>
+            <player>Zielinski Piotr</player>
+            <player>Goralski Jacek</player>
+            <player>Kurzawa Rafal</player>
+            <player>Lewandowski Rpbert</player>
+            <player>Stepinski Mariusz</player>
+            <player>Wilczek Kamil</player>
+        </players>
+        Poland
+    </team>
+    <team code="ROU" group="3" info="Steint">
+        <players>
+            <player>Chiriches Vlad</player>
+            <player>Ganea Christian</player>
+            <player>Moti Cosmin</player>
+            <player>Chipciu Alexandru</player>
+            <player>Bicfalvi Eric</player>
+            <player>Stanciu Nicolae</player>
+            <player>Ivan Andrei</player>
+            <player>Rotariu Dorin</player>
+            <player>Stancu Bogdan</player>
+        </players>
+        Romania
+    </team>
+    <team code="SVK" group="3" info="Steint">
+        <players>
+            <player>Durica Jan</player>
+            <player>Gyomber Norbert</player>
+            <player>Pekarik Peter</player>
+            <player>Mak Robert</player>
+            <player>Stock Miroslav</player>
+            <player>Weis Vladimir</player>
+            <player>Duris Michal</player>
+            <player>Nemec Adam</player>
+        </players>
+        Slovakia
+    </team>
+    <team code="HUN" group="3" info="Steint">
+        <players>
+            <player>Dibusz Denes</player>
+            <player>Gulacsi Peter</player>
+            <player>Kiraly Gabor</player>
+            <player>Kleinheisler Laszlo</player>
+            <player>Nagy Adam</player>
+            <player>Böde Daniel</player>
+            <player>Gera Zoltan</player>
+            <player>Szali Adam</player>
+        </players>
+        Hungry
+    </team>
+    <team code="TUR" group="4" info="Steint">
+        <players>
+            <player>Alkan Erol</player>
+            <player>Aziz Serdar</player>
+            <player>Tufan Ozan</player>
+            <player>Akbaba Emre</player>
+            <player>Malli Yunus</player>
+            <player>Under Cengiz</player>
+            <player>Tosun Cenk</player>
+            <player>Unal Enes</player>
+        </players>
+        Turkey
+    </team>
+    <team code="IRL" group="4" info="Steint">
+        <players>
+            <player>Randolph Darren</player>
+            <player>Westwood Keiren</player>
+            <player>Pearce Alex</player>
+            <player>Hayes Jonny</player>
+            <player>Arter Harry Arter</player>
+            <player>McGeady Aiden</player>
+            <player>Long Shane</player>
+            <player>Hogan Scott</player>
+            <player>OBrien Aiden</player>
+        </players>
+        Ireland
+    </team>
+</teams>

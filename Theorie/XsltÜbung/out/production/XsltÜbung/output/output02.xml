@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?><positions>
+    <position type="attack">
+        <team code="FRA">
+            <player>Griezmann Antoine</player>
+            <player>Giroud Olivier</player>
+            <player>Fekir Nabil</player>
+            <player>Thauvin Florian</player>
+            <player>Lacazette Alexandre</player>
+        </team>
+        <team code="SPA">
+            <player>Villa Davic</player>
+            <player>Costa Diego</player>
+            <player>Vazquez Lucas</player>
+            <player>Aduriz Aritz</player>
+        </team>
+        <team code="GER">
+            <player>Kroos Toni</player>
+            <player>Müller Thomas</player>
+            <player>Gomez Mario</player>
+        </team>
+        <team code="GB">
+            <player>Rashford Marcus</player>
+            <player>Vardy Jamie</player>
+        </team>
+        <team code="POR">
+            <player>Silva Andre</player>
+            <player>Lopes Rony</player>
+        </team>
+        <team code="BEL">
+            <player>Depoitre Laurent</player>
+            <player>Mirallas Kevin</player>
+            <player>Januzaj Adnan</player>
+        </team>
+        <team code="ITA">
+            <player>Immobile Ciro</player>
+            <player>Zaza Simone</player>
+            <player>Belotti Andrea</player>
+        </team>
+        <team code="RUS">
+            <player>Bucharow Alexander</player>
+            <player>Polos Dimitri</player>
+        </team>
+        <team code="SUI">
+            <player>Derdiyok Eren</player>
+            <player>Drmic Josip</player>
+            <player>Embolo Breel</player>
+        </team>
+        <team code="AUT">
+            <player>Burgstaller Guido</player>
+            <player>Gregorisch Michael</player>
+            <player>Janko Marc</player>
+        </team>
+        <team code="CRO">
+            <player>Santini Ivan</player>
+            <player>Pjaca Mario</player>
+            <player>Kalinic Nikola</player>
+        </team>
+        <team code="UKR">
+            <player>Bjessjedin Artem</player>
+            <player>Jarmolinko Andrij</player>
+        </team>
+        <team code="CZE">
+            <player>Kadlex Vaclav</player>
+            <player>Kliment Jan</player>
+            <player>Skoda Milan</player>
+        </team>
+        <team code="SWE">
+            <player>Andersson Sebastian</player>
+            <player>Frick Per</player>
+            <player>Isak Alexander</player>
+        </team>
+        <team code="PLA">
+            <player>Lewandowski Rpbert</player>
+            <player>Stepinski Mariusz</player>
+            <player>Wilczek Kamil</player>
+        </team>
+        <team code="ROU">
+            <player>Ivan Andrei</player>
+            <player>Rotariu Dorin</player>
+            <player>Stancu Bogdan</player>
+        </team>
+        <team code="SVK">
+            <player>Duris Michal</player>
+            <player>Nemec Adam</player>
+        </team>
+        <team code="HUN">
+            <player>Böde Daniel</player>
+            <player>Gera Zoltan</player>
+            <player>Szali Adam</player>
+        </team>
+        <team code="TUR">
+            <player>Tosun Cenk</player>
+            <player>Unal Enes</player>
+        </team>
+        <team code="IRL">
+            <player>Long Shane</player>
+            <player>Hogan Scott</player>
+            <player>OBrien Aiden</player>
+        </team>
+    </position>
+    <position type="playground">
+        <team code="FRA"/>
+        <team code="SPA">
+            <player>Asensio Marco</player>
+            <player>Iniesta Andres</player>
+            <player>Silva David</player>
+            <player>Martinez Javi</player>
+            <player>Herrera Ander</player>
+        </team>
+        <team code="GER">
+            <player>Brandt Julian</player>
+            <player>Can Emre</player>
+            <player>Khedira Sami</player>
+        </team>
+        <team code="GB">
+            <player>Cook Lewis</player>
+            <player>Lingard Jesse</player>
+        </team>
+        <team code="POR">
+            <player>Fernandes Manuel</player>
+            <player>Pereira Danilo</player>
+            <player>Fernandes Bruno</player>
+        </team>
+        <team code="BEL">
+            <player>Witsel Axel</player>
+            <player>Defour Steven</player>
+            <player>Januzaj Adnan</player>
+        </team>
+        <team code="ITA">
+            <player>Gagliardini Roberto</player>
+            <player>Parolo Marco</player>
+            <player>Florenzi Alessandro</player>
+        </team>
+        <team code="RUS">
+            <player>Gluschakow Denis</player>
+            <player>Golowin Alexander</player>
+            <player>Jerochin Alexander</player>
+        </team>
+        <team code="SUI">
+            <player>Frei Fabian</player>
+            <player>Zuber Seven</player>
+            <player>Xhaka Granit</player>
+            <player>Stocker Valentin</player>
+        </team>
+        <team code="AUT">
+            <player>Alaba David</player>
+            <player>Arnautovic Marco</player>
+            <player>Schaub Louis</player>
+        </team>
+        <team code="CRO">
+            <player>Bradaric Filip</player>
+            <player>Modric Luka</player>
+            <player>Perisic Ivan</player>
+        </team>
+        <team code="UKR">
+            <player>Zhyankow Wiktor</player>
+            <player>Schachow Jewhen</player>
+            <player>Konopljanka Jewhen</player>
+        </team>
+        <team code="CZE">
+            <player>Husbauer Josef</player>
+            <player>Barak Antonin</player>
+            <player>Horava Tomas</player>
+        </team>
+        <team code="SWE">
+            <player>Fransson Alexander</player>
+            <player>Lewicki Oscar</player>
+            <player>Sema Ken</player>
+        </team>
+        <team code="PLA">
+            <player>Zielinski Piotr</player>
+            <player>Goralski Jacek</player>
+            <player>Kurzawa Rafal</player>
+        </team>
+        <team code="ROU">
+            <player>Chipciu Alexandru</player>
+            <player>Bicfalvi Eric</player>
+            <player>Stanciu Nicolae</player>
+        </team>
+        <team code="SVK">
+            <player>Mak Robert</player>
+            <player>Stock Miroslav</player>
+            <player>Weis Vladimir</player>
+        </team>
+        <team code="HUN">
+            <player>Kleinheisler Laszlo</player>
+            <player>Nagy Adam</player>
+        </team>
+        <team code="TUR">
+            <player>Akbaba Emre</player>
+            <player>Malli Yunus</player>
+            <player>Under Cengiz</player>
+        </team>
+        <team code="IRL">
+            <player>Hayes Jonny</player>
+            <player>Arter Harry Arter</player>
+            <player>McGeady Aiden</player>
+        </team>
+    </position>
+    <position type="defense">
+        <team code="FRA">
+            <player>Koscielny Laurent</player>
+            <player>Sidibe Djibril</player>
+        </team>
+        <team code="SPA">
+            <player>Alba Jordi</player>
+            <player>Carvajal Dani</player>
+            <player>Ramos Sergio</player>
+            <player>Moreno Alberto</player>
+            <player>Bartra Marc</player>
+        </team>
+        <team code="GER">
+            <player>Boateng Jerome</player>
+            <player>Halstenberg Marcel</player>
+            <player>Hummels Mats</player>
+            <player>Süle Niklas</player>
+        </team>
+        <team code="GB">
+            <player>Bertrand Ryan</player>
+            <player>Gomez Joe</player>
+            <player>Jones Phil</player>
+        </team>
+        <team code="POR">
+            <player>Neto Luis</player>
+            <player>Pereira Ricardo</player>
+        </team>
+        <team code="BEL">
+            <player>Boyata Dedryck</player>
+            <player>Ciman Laurent</player>
+            <player>Lukaku Jordan</player>
+        </team>
+        <team code="ITA">
+            <player>Rugani Daniele</player>
+            <player>Barzagli Andrea</player>
+            <player>Zappacosta Davide</player>
+        </team>
+        <team code="RUS">
+            <player>Akinfejew Igor</player>
+            <player>Gabulow Wladimir</player>
+        </team>
+        <team code="SUI">
+            <player>Akanji Manuel</player>
+            <player>Klose Timm</player>
+        </team>
+        <team code="AUT">
+            <player>Lainer Stefan</player>
+            <player>Dragovic Alexander</player>
+        </team>
+        <team code="CRO">
+            <player>Lovren Dejan</player>
+            <player>Jedvaj Tin</player>
+        </team>
+        <team code="UKR">
+            <player>Sobol Eduard</player>
+            <player>Kutscher Olexandr</player>
+        </team>
+        <team code="CZE">
+            <player>Boril Jan</player>
+            <player>Suchy Marek</player>
+        </team>
+        <team code="SWE">
+            <player>Brorsson Franz</player>
+            <player>Nilsson Joakim</player>
+            <player>Olson Martin</player>
+        </team>
+        <team code="PLA">
+            <player>Glik Kamil</player>
+            <player>Jach Jaroslaw</player>
+            <player>Pazdan Machl</player>
+        </team>
+        <team code="ROU">
+            <player>Chiriches Vlad</player>
+            <player>Ganea Christian</player>
+            <player>Moti Cosmin</player>
+        </team>
+        <team code="SVK">
+            <player>Durica Jan</player>
+            <player>Gyomber Norbert</player>
+            <player>Pekarik Peter</player>
+        </team>
+        <team code="HUN">
+            <player>Dibusz Denes</player>
+            <player>Gulacsi Peter</player>
+            <player>Kiraly Gabor</player>
+        </team>
+        <team code="TUR">
+            <player>Alkan Erol</player>
+            <player>Aziz Serdar</player>
+            <player>Tufan Ozan</player>
+        </team>
+        <team code="IRL">
+            <player>Randolph Darren</player>
+            <player>Westwood Keiren</player>
+            <player>Pearce Alex</player>
+        </team>
+    </position>
+</positions>
