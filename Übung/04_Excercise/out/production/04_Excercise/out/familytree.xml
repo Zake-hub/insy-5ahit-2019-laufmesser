@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><familytree>
+    <person>
+        <name>John Washington</name>
+        <child>
+            <person>
+                <name>Lawrence Washington</name>
+                <child>
+                    <person>
+                        <name>August Washington</name>
+                        <child>
+                            <person>
+                                <name>George Washington</name>
+                                <child/>
+                            </person>
+                        </child>
+                    </person>
+                </child>
+            </person>
+        </child>
+    </person>
+</familytree>

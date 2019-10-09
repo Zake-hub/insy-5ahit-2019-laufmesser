@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="../schema/personconf.xsd">
+    <first-name>Albert</first-name>
+    <middle-name>F.</middle-name>
+    <last-name>Alfons</last-name>
+</person>

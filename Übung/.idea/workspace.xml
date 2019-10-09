@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d6c0aa5e-af85-4691-8e30-2b3815499782" name="Default Changelist" comment="" />
+    <list default="true" id="d6c0aa5e-af85-4691-8e30-2b3815499782" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/04_Excercise/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_Excercise/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_Excercise/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_Excercise/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_Excercise/04_Excercise.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_Excercise/src/out/report_out.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_Excercise/src/xml/report.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_Excercise/src/xsl/report.xsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +26,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/04_Excercise/src/out/report_out.xml" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -30,6 +40,33 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="report.xsl" type="XSLT" factoryName="XSLT" temporary="true">
+      <option name="myOutputFile" value="H:\School\5 AHIT\INSY\insy-5ahit-2019-laufmesser\Übung\04_Excercise\src\out\report_out.xml" />
+      <option name="myOpenOutputFile" value="false" />
+      <option name="myOpenInBrowser" value="false" />
+      <option name="mySmartErrorHandling" value="true" />
+      <option name="myRunnerPort" value="34873" />
+      <option name="myVmArguments" value="" />
+      <option name="myWorkingDirectory" value="" />
+      <option name="myModule" />
+      <option name="myJdk" />
+      <XsltFile url="file://$PROJECT_DIR$/04_Excercise/src/xsl/report.xsl" />
+      <XmlFile url="file://$PROJECT_DIR$/04_Excercise/src/xml/report.xml" />
+      <parameters />
+      <OutputType value="CONSOLE" save-to-file="true" />
+      <FileType name="XML" />
+      <JdkChoice value="FROM_MODULE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="XSLT.report.xsl" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -41,6 +78,11 @@
       <option name="presentableId" value="Default" />
       <updated>1568958510085</updated>
       <workItem from="1568958511270" duration="17000" />
+      <workItem from="1570168626900" duration="167000" />
+      <workItem from="1570169226598" duration="5000" />
+      <workItem from="1570169732774" duration="5284000" />
+      <workItem from="1570514129383" duration="35000" />
+      <workItem from="1570514178674" duration="12000" />
     </task>
     <servers />
   </component>
@@ -52,7 +94,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<search xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="../schema/searchconf.xsd">
+    <or>
+        <and>
+            <term>x + 2</term>
+            <or>
+                <term>y - 1</term>
+                <not>
+                    <term>k + 3</term>
+                </not>
+            </or>
+        </and>
+    </or>
+</search>

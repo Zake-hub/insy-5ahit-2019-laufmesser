@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:complexType name="andOrType">
+        <xs:choice maxOccurs="2">
+            <xs:element name="or" type="andOrType"/>
+            <xs:element name="and" type="andOrType"/>
+            <xs:element name="term" type="xs:string"/>
+            <xs:element name="not" type="searchType"/>
+        </xs:choice>
+    </xs:complexType>
+
+    <xs:complexType name="searchType">
+        <xs:choice>
+            <xs:element name="or" type="andOrType"/>
+            <xs:element name="and" type="andOrType"/>
+            <xs:element name="term" type="xs:string"/>
+            <xs:element name="not" type="searchType"/>
+        </xs:choice>
+    </xs:complexType>
+
+    <xs:element name="search" type="searchType"/>
+</xs:schema>
