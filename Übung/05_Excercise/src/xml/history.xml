@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+         xs:noNamespaceSchemaLocation="../schema/historyconf.xsd">
+    <periods ordered="false">
+        <period>
+            <description>
+                An era of conquering empires, bloodshed and culture
+            </description>
+            <timeperiod spec="BC">
+                <begin>500</begin>
+                <end>0</end>
+            </timeperiod>
+            <leaders>
+                <leader historical-figure="true">
+                    <name pseudonym="true">Alexander the Great</name>
+                    <origin>Macedonia</origin>
+                    <battles>
+                        <battle>
+                            <label>Battle of Gaugamela</label>
+                            <timeperiod spec="BC">
+                                <point-in-time>1.10.331</point-in-time>
+                            </timeperiod>
+                            <opponent>Dareios 3</opponent>
+                        </battle>
+                    </battles>
+                </leader>
+            </leaders>
+        </period>
+        <period>
+            <description>
+                The 20th century was an era of great technological innovations.
+            </description>
+            <battles>
+                <battle>
+                    <label>2nd World War</label>
+                    <timeperiod spec="AC">
+                        <begin>1.September 1939</begin>
+                        <end>2.September 1945</end>
+                    </timeperiod>
+                </battle>
+            </battles>
+        </period>
+    </periods>
+</history>

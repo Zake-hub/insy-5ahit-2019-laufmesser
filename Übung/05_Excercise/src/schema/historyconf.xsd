@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:simpleType name="specType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="BC"/>
+            <xs:enumeration value="AC"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="timeperiodType">
+        <xs:choice maxOccurs="2" >
+            <xs:element name="begin" type="xs:string"/>
+            <xs:element name="end" type="xs:string"/>
+            <xs:element name="point-in-time" type="xs:string"/>
+        </xs:choice>
+        <xs:attribute name="spec" type="specType"/>
+    </xs:complexType>
+
+    <xs:complexType name="nameType">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute name="pseudonym" type="xs:boolean"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:complexType name="battleType">
+        <xs:sequence>
+            <xs:element name="label" type="xs:string"/>
+            <xs:element name="timeperiod" type="timeperiodType"/>
+            <xs:element minOccurs="0" name="opponent" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="battlesType">
+        <xs:sequence>
+            <xs:element name="battle" type="battleType"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="leaderType">
+        <xs:sequence>
+            <xs:element name="name" type="nameType"/>
+            <xs:element name="origin" type="xs:string"/>
+            <xs:element name="battles" type="battlesType"/>
+        </xs:sequence>
+        <xs:attribute name="historical-figure" type="xs:boolean"/>
+    </xs:complexType>
+
+    <xs:complexType name="leadersType">
+        <xs:sequence>
+            <xs:element name="leader" type="leaderType"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="periodType">
+        <xs:sequence>
+            <xs:element name="description" type="xs:string"/>
+            <xs:element minOccurs="0" name="timeperiod" type="timeperiodType"/>
+            <xs:element minOccurs="0" maxOccurs="unbounded" name="leaders" type="leadersType"/>
+            <xs:element minOccurs="0" maxOccurs="unbounded" name="battles" type="battlesType"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="periodsType">
+        <xs:sequence maxOccurs="unbounded">
+            <xs:element name="period" type="periodType"/>
+        </xs:sequence>
+        <xs:attribute name="ordered" type="xs:boolean"/>
+    </xs:complexType>
+
+    <xs:complexType name="historyType">
+        <xs:sequence>
+            <xs:element name="periods" type="periodsType"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:element name="history" type="historyType"/>
+</xs:schema>

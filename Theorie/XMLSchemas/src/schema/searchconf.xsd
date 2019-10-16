@@ -20,4 +20,5 @@
     </xs:complexType>
 
     <xs:element name="search" type="searchType"/>
+
 </xs:schema>
