@@ -1,0 +1,53 @@
+-- --------------------------------------------
+-- Pokemon --
+-- --------------------------------------------
+-- Geben Sie fuer das Pokemon bulbasaur Type1
+-- und Type2 aus.
+
+match (t1:Type) <-[:type1]- (p:Pokemon {name: "bulbasaur"})
+match (t2:Type) <-[:type2]- (p) return t1, t2
+
+-- --------------------------------------------
+-- Type --
+-- --------------------------------------------
+-- Welche Typen fuer Pokemons gibt es? Sammeln
+-- Sie alle Typen in einem Array.
+
+match (n:Type) return collect(n.name)
+
+-- --------------------------------------------
+-- Pokemon --
+-- --------------------------------------------
+-- Geben Sie alle Evolutionsstufen von bulbasaur
+-- an. Sammeln Sie die namen in einem Array.
+
+V1: match (:Pokemon {name: "bulbasaur"}) -[e:evolves_to*]-> (p:Pokemon) return collect(p.name)
+V2: 
+-- --------------------------------------------
+-- Pokemon, Type --
+-- --------------------------------------------
+-- Gegen welche Pokemon verursacht bulbasaur
+-- nur halben Schaden. Sammeln Sie die Namen in
+-- einem Array.
+-- Hinweis: Verwenden Sie nur type1 fuer die
+-- Abfragen.
+
+Match (t:Type) <-[:half_damage_to]- (:Type) <-[:type1]- (p:Pokemon {name: "bulbasaur"}) return collect(t.name)
+
+-- --------------------------------------------
+-- Pokemon, Type --
+-- --------------------------------------------
+-- Welchen Type wird von den meisten Pokemons
+-- geteilt.
+-- Hinweis: Verwenden Sie nur type1 fuer die
+-- Abfragen.
+
+Match (t:Type) <-[:type1]- (p:Pokemon) with t, count(p) as ct_t with max(ct_t) as max_t
+Match (p:Pokemon) -[:type1]-> (t1:Type) with t1, count(p) as p_ct, max_t as max_t WHERE p_ct = max_t 
+return t
+
+-- --------------------------------------------
+-- Pokemon --
+-- --------------------------------------------
+-- Welcher Pokemontyp verursacht doppelten Schaden
+-- gegen die meisten Pokemons.

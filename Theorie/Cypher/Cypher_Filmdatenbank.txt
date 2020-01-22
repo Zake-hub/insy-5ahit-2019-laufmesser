@@ -1,0 +1,53 @@
+-- ------------------------------------------ --
+-- Customer, Order, Product, Supplie --
+-- ------------------------------------------ --
+-- Finden Sie alle Supplier die Produkte an
+-- Paul Henriot zugestellt haben, in einem Array.
+match (:Customer {contactName: "Paul Henriot"}) -[:PURCHASED]->(:Order)-[:ORDERS]-> (:Product) <-[:SUPPLIES]- (n:Supplier) return collect(n)
+
+-- ------------------------------------------ --
+-- Customer, Order --
+-- ------------------------------------------ --
+-- Wieviele Bestellungen hat der Kunde mit der
+-- Kontaktperson Christina Berglund?
+match (:Customer {contactName: "Christina Berglund"}) -[:PURCHASED]-> (n:Order) return count(n)
+
+-- ------------------------------------------ --
+-- Order, Product, Supplier --
+-- ------------------------------------------ --
+-- Ermitteln Sie fuer jeden Supplier den Wert
+-- der Produkte die durch die Organisation ver-
+-- schifft worden sind. Addieren Sie dazu den
+-- Wert aller von den Supplier verschifften
+-- Produkten und geben Sie ihn zusammen mit dem
+-- Supplier aus.
+match (s:Supplier) -[:SUPPLIES]-> (:Product) <-[n:ORDERS]- (:Order) return s,(toInteger(n.unitPrice) * n.quantity) as summe;
+
+-- ------------------------------------------ --
+-- Customer --
+-- ------------------------------------------ --
+-- Finden Sie den PostalCode mit den meisten
+-- Kunden.
+match(c:Customer) with c.postalCode as postalCode, count(c) as pcodes with max(pcodes) as maxPcodes match (c:Customer) with c.postalCode as pstCode, count(c) as pcodes, maxPcodes as maxP where pcodes = maxP return pstCode;
+
+-- ------------------------------------------ --
+-- Order, Product, Supplier --
+-- ------------------------------------------ --
+-- Berechnen Sie fuer alle Produkte im Graphen
+-- eine Klassifizierung. Die Klassifizierung
+-- fuer ein Produkt berechnet sich als Summe
+-- folgender Werte:
+-- Je nach Kategorie gibt wird ein unterschied-
+-- licher Wert addiert:
+-- Bevereges Wert: 5
+-- Condiments Wert: 2
+-- Confections Wert: 7
+-- Dairy Products Wert: 3
+-- Grains/Cereals Wert: 4
+-- Meat/Poultry Wert: 4
+-- Produce Wert: 2
+-- Seafood Wert: 6
+-- Addieren Sie 40 Prozent den fuer das Produkt
+-- geforderten Mittelpreises.
+-- Hinweis: avg
+
